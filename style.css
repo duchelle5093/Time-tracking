@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Comfortaa&family=Dancing+Script&family=Hanken+Grotesk&family=Julius+Sans+One&family=Open+Sans:wght@300&family=Orbitron&family=Poppins:wght@400;600&family=Roboto+Mono:wght@300;400&family=Roboto:wght@300;400;500;700&family=Rubik&family=Sarpanch&family=Space+Grotesk&family=Tilt+Prism&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.left{
+    grid-row:span 2 ;  
+    border-radius: 20px;
+    background-color: hsl(226, 43%, 10%);
+    color: #ffffff;
+}
+.haut{
+    width: 100%;
+    height: 70%;
+    background-color: hsl(246, 80%, 60%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 20px;
+}
+.bas{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+.bas p{
+    font-size: 1.5rem;
+    color: rgba(255,255,255,0.5);
+}
+.bas p:hover{
+    color:#ffffff ;
+    cursor: pointer;
+
+}
+.left img{
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nom p:nth-child(2){
+    font-size: 5rem;
+}
+.nom p:first-child{
+    font-size: 1.5rem;
+    color: rgba(255,255,255,0.5);
+}
+.top{
+    display: flex;
+    gap: 1%;
+}
+.bottom{
+    display: flex;
+    gap: 1%;
+}
+.elements{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 15fr 50fr;
+    grid-template-rows: 50fr 50fr;
+    gap: 1%;
+}
+.container{
+    width:60%;
+    height: 50%;
+}
+.top .all{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(15, 100%, 70%);
+    border-radius: 20px;
+    color: white;
+}
+.bottom .all{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.image{
+    height: 20%;
+    display: flex;
+    justify-content: end;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+}
+.image img{
+    width: 100px;
+    height: 100px;
+}
+.cadre{
+    height: 80%;
+    background-color: hsl(235, 46%, 20%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    position: relative;
+    border-radius: 20px
+}
+.cadre:hover{
+    cursor: pointer;
+    background-color:hsl(235, 45%, 61%);
+    transition: background-color 0.2s ;
+}
+
+
+.cadre img{
+    width: 40px;
+    cursor: pointer;
+}
+.cadre .ht{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cadre .ht p{
+    font-size: 1.7rem;
+}
+.bt p:first-child{
+    font-size: 6rem;
+}
+.bt p:nth-child(2){
+    font-size: 1.5rem;
+}
+.work{
+    background-color:hsl(15, 100%, 70%) ;
+}
+.play{
+    background-color:hsl(195, 74%, 62%) ;
+}
+.top .all:nth-child(2){
+    background-color: hsl(195, 74%, 62%);
+}
+.study{
+    background-color: hsl(348, 100%, 68%);
+}
+.top .all:nth-child(3){
+    background-color:hsl(348, 100%, 68%);
+}
+.exercise{
+    background-color: hsl(145, 58%, 55%);
+}
+.bottom .all:nth-child(1){
+    background-color:hsl(145, 58%, 55%);
+}
+.social{
+    background-color: hsl(264, 64%, 52%);
+}
+.bottom .all:nth-child(2){
+    background-color:hsl(264, 64%, 52%);
+}
+.self{
+    background-color: hsl(43, 84%, 65%);
+}
+.bottom .all:nth-child(3){
+    background-color:hsl(43, 84%, 65%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.colors{
+    color:hsl(15, 100%, 70%)
+    hsl(195, 74%, 62%)
+    hsl(246, 80%, 60%)
+    hsl(348, 100%, 68%)
+    hsl(145, 58%, 55%)
+    hsl(264, 64%, 52%)
+    hsl(43, 84%, 65%) 
+    
+    hsl(226, 43%, 10%)
+    hsl(235, 46%, 20%)
+    hsl(235, 45%, 61%)
+    hsl(236, 100%, 87%);
+}
